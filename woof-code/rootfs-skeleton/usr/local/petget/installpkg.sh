@@ -945,9 +945,9 @@ PKGFILES=/var/packages/${DLPKG_NAME}.files
 /usr/local/petget/z_update_system_cache.sh "$PKGFILES"
 
 rm -f $HOME/nohup.out
-sleep 0.2
-[ "`pidof conky 2>/dev/null`" ] \
- && which conky-restart >/dev/null \
- && conky-restart &
+#sleep 0.2
+#[ "`pidof conky 2>/dev/null`" ] \
+# && which conky-restart >/dev/null \
+# && conky-restart &
 
 ###End

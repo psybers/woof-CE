@@ -348,7 +348,7 @@ PKGS_SPECS_TABLE="$PKGS_SPECS_TABLE
 yes|qpdfview|qpdfview,qpdfview-djvu-plugin,qpdfview-ps-plugin,qpdfview-pdf-poppler-plugin,qpdfview-translations,libsynctex2,libsynctex-dev,libpoppler-qt5-1,libqt5concurrent5,libqt5printsupport5,libqt5sql5,libqt5sql5-sqlite,libqt5svg5,libqt5xml5,libxcb-xkb1|exe,dev,doc,nls #other requisite qt5 deps provided by simplescreenrecorder below
 yes|qwinff|qwinff,libmujs2,libopencore-amrnb0,libopencore-amrwb0,libqt5opengl5,libsox-fmt-alsa,libsox-fmt-base,libsox3,sox|exe,dev,doc,nls
 yes|simplescreenrecorder|simplescreenrecorder,libdouble-conversion3,libmd4c0,libqt5core5a,libqt5dbus5,libqt5gui5,libqt5network5,libqt5widgets5,libqt5x11extras5,libxcb-icccm4,libxcb-image0,libxcb-keysyms1,libxcb-render-util0,libxcb-xinerama0,libxcb-xinput0,libxkbcommon-x11-0,simplescreenrecorder-lib|exe,dev,doc,nls
-yes|conky|conky,conky-std,libde265-0,libgif7,libheif1,libid3tag0,libimlib2,libspectre1|exe,dev,doc,nls
+no|conky|conky,conky-std,libde265-0,libgif7,libheif1,libid3tag0,libimlib2,libspectre1|exe,dev,doc,nls
 yes|diffuse|diffuse|exe,dev,doc,nls
 yes|easytag|easytag,libid3-3.8.3v5,libid3tag0,libopusfile0,libtag1v5,libtag1v5-vanilla,libwavpack1|exe,dev,doc,nls
 yes|ffmpeg|ffmpeg,libavc1394-0,libavdevice59,libcaca0,libcdio-cdda2,libcdio-paranoia2,libcdio19,libdc1394-25,libdecor-0-0,libiec61883-0,libopenal-data,libopenal1,libraw1394-11,libsdl2-2.0-0,libslang2,libsndio7.0
@@ -418,7 +418,7 @@ yes|libfox-1.6-0|libfox-1.6-0|exe,dev,doc,nls
 yes|xournalpp|xournalpp|exe,dev,doc,nls
 yes|BW_rightclick||exe,dev,doc,nls
 yes|cdrtools||exe,dev,doc,nls
-yes|conky-gtk||exe,dev,doc,nls
+no|conky-gtk||exe,dev,doc,nls
 yes|dict||exe,dev,doc,nls
 yes|gatotray||exe,dev,doc,nls
 yes|gcolor2||exe,dev,doc,nls
